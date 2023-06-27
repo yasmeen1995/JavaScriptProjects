@@ -6,7 +6,6 @@ let saveEl= document.getElementById("save-el")
 function increment() {
     count += 1
     countEl.innerText = count 
-    
 }
 
 function save() {
@@ -15,5 +14,7 @@ function save() {
 
     count = 0
     countEl.innerText = 0
+
+    console.log(saveEl.textContent)
        
 }
