@@ -63,7 +63,7 @@ function showResult(score, playerChoice, computerChoice) {
   } else if (score === 1) {
     resultEl.innerHTML =`Hurrey.. You Win!`
   } else {
-    resultEl.innerHTML =`Oh No.. It's a Draw!`
+    resultEl.innerHTML =`Oh No.. It's a Tie!`
   }
 
   let playerScoreEl = document.getElementById("player-score")
