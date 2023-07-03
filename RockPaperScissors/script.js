@@ -68,8 +68,8 @@ function showResult(score, playerChoice, computerChoice) {
 
   let playerScoreEl = document.getElementById("player-score")
   let handsEl =  document.getElementById("hands")
-  
-  playerScoreEl.innerHTML = `${Number(playerScoreEl.innerHTML) + score}` 
+
+  playerScoreEl.innerText = `${Number(playerScoreEl.innerHTML) + score}` 
   handsEl.innerText = `Your Choice: ${playerChoice}\n Computer Choice: ${computerChoice}\n`
   
 }
