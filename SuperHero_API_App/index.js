@@ -33,9 +33,6 @@ const getMeHero = (id) => {
     .then((response) => response.json())
     .then((json) => {
         console.log(json.powerstats)
-        // const name = `<h2> ${json.name}`
-        // heroImageEl.innerHTML = `${name} <br> <img src= "${json.image.url}"  height='200> width='200'/>`
-
         showHeroInfo(json) 
     })
 
@@ -47,14 +44,11 @@ const searchHero = (name) => {
     .then((response) => response.json())
     .then((json) => {
         console.log(json.results[0])
-        // const name = `<h2> ${json.powerstats.intelligence}`
-        // heroImageEl.innerHTML = `${name} <br> <img src= "${json.results[0].image.url}" height='200> width='200'/>`
         showHeroInfo(json.results[0])
     })
 }
 
 let randomHero = () => (Math.floor(Math.random()*731))
-// let nametosearh =() => input('enter name')
 
 btnEl.onclick = () => getMeHero(randomHero())
 searchButtonEl.onclick=() => searchHero(searchInputEl.value)
