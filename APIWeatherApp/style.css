@@ -1,0 +1,11 @@
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.banner {
+    color: lightseagreen;
+    font-weight: bold;
+    font-family: sans-serif;
+}
