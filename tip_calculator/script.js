@@ -71,5 +71,3 @@ const calculateBill = () => {
     // calculate the bill based on the new number of people
     calculateBill()
   }
-
-  // calculateBill()
