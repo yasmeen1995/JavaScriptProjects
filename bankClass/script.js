@@ -23,6 +23,7 @@ class Bank {
   }
 }
 
+// Creating new object
 const qaziChecking = new Bank(0);
 
 const depositButton = document.getElementById("deposit");
