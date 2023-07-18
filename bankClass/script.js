@@ -31,6 +31,7 @@ const withdrawButton = document.getElementById("withdraw");
 const amountInput = document.getElementById("amount");
 const balanceDiv = document.getElementById("balance");
 
+// On click event
 depositButton.onclick = () => {
   const amount = Number(amountInput.value);
   qaziChecking.deposit(amount);
